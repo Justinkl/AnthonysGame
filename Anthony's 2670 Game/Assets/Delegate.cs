@@ -8,12 +8,15 @@ public class Delegate : MonoBehaviour {
 
 	public static Action<string> ZooKeeperWords;
 
+	public static Action<string> ZooKeeperComplain;
+
 	public static Action<string> ZooKeeperRun;
 
 	// Use this for initialization
 	void Start () {
 		ZooKeeper ();
-		ZooKeeperWords ("words");
+		ZooKeeperWords ("These animals are too noisy!");
+		ZooKeeperComplain ("They've gone absolutely wild!");
 		ZooKeeperRun ("I'm running away!");
 	
 	}

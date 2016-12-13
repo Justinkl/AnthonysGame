@@ -8,6 +8,7 @@ public class recievedelegates : MonoBehaviour {
 	void Start () {
 		Delegate.ZooKeeper += ZooKeeperHandler;
 		Delegate.ZooKeeperWords += ZooKeeperWordsHandler;
+		Delegate.ZooKeeperComplain += ZooKeeperComplainHandler;
 		Delegate.ZooKeeperRun += ZooKeeperRunHandler;
 	}
 
@@ -19,6 +20,11 @@ public class recievedelegates : MonoBehaviour {
 	private void ZooKeeperWordsHandler (string w)
 	{
 		print (w);
+	}
+
+	private void ZooKeeperComplainHandler (string c)
+	{
+		print (c);
 	}
 
 	private void ZooKeeperRunHandler (string r)

@@ -21,7 +21,7 @@ public class WelcomeSwitchStatement : MonoBehaviour {
 			//goto case 2;
 		case 3:
 			StartCoroutine (Wait ());
-			print ("Welcome to Justin's collection!");
+			print ("Welcome to Justin's zoo!");
 			break;
 			//goto case 1;
 		case 2:

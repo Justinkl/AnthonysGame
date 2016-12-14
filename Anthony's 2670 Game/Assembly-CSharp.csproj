@@ -49,9 +49,12 @@
      <Compile Include="Assets\FirstWhileLoop.cs" />
      <Compile Include="Assets\ForloopOne.cs" />
      <Compile Include="Assets\ForloopTwo.cs" />
+     <Compile Include="Assets\Horse.cs" />
+     <Compile Include="Assets\InstructionSwitch.cs" />
      <Compile Include="Assets\SecondWhileLoop.cs" />
      <Compile Include="Assets\TransitionCoroutine.cs" />
      <Compile Include="Assets\WelcomeSwitchStatement.cs" />
+     <Compile Include="Assets\Zebra.cs" />
      <Compile Include="Assets\animal.cs" />
      <Compile Include="Assets\monkey.cs" />
      <Compile Include="Assets\recievedelegates.cs" />

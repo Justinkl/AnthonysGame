@@ -12,6 +12,13 @@ public class recievedelegates : MonoBehaviour {
 		Delegate.ZooKeeperRun += ZooKeeperRunHandler;
 	}
 
+    void OnDestroy()
+    {
+        Delegate.ZooKeeper -= ZooKeeperHandler;
+        Delegate.ZooKeeperWords -= ZooKeeperWordsHandler;
+        Delegate.ZooKeeperComplain -= ZooKeeperComplainHandler;
+        Delegate.ZooKeeperRun-= ZooKeeperRunHandler;
+    }
 	private void ZooKeeperHandler ()
 	{
 		print ("Im a zookeeper.");

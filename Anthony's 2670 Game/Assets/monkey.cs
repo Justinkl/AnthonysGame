@@ -7,4 +7,8 @@ public class monkey : animal {
 		print ("Me want banana!");
 		Alive();
 	}
+    void OnMouseDown()
+    {
+        print("Me want banana!");
+    }
 }

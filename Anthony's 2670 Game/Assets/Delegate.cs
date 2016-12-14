@@ -14,9 +14,13 @@ public class Delegate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        if (ZooKeeper != null)
 		ZooKeeper ();
+        if (ZooKeeperWords != null)
 		ZooKeeperWords ("These animals are too noisy!");
+        if (ZooKeeperComplain != null)
 		ZooKeeperComplain ("They've gone absolutely wild!");
+        if (ZooKeeperRun != null)
 		ZooKeeperRun ("I'm running away!");
 	
 	}

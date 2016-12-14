@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class animal : MonoBehaviour {
+public class animal : MonoBehaviour, ISomething {
 
 	// Use this for initialization
 	public virtual void Start () {
@@ -14,6 +15,10 @@ public class animal : MonoBehaviour {
 		print ("That is my sound!");
 	}
 
+   public void DoSomething()
+    {
+
+    }
 
 
 }

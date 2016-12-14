@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Horse : MonoBehaviour {
+public class Horse : animal {
 
 	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public override void Start () {
+		print ("Naye");
+		Alive ();
+
 	}
 }

@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Zebra : MonoBehaviour {
+public class Zebra : animal {
 
 	// Use this for initialization
-	void Start () {
-	
+	public override void Start () {
+		print ("Striped naye");
+		Alive ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }

@@ -11,7 +11,7 @@ public class animal : MonoBehaviour {
 
 	public void Alive () 
 	{
-		print ("I'm Alive!");
+		print ("That is my sound!");
 	}
 
 

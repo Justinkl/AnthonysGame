@@ -29,7 +29,7 @@ public class InstructionSwitch : MonoBehaviour {
 			break;
 		case 2:
 			StartCoroutine (Pause ());
-			print ("Try clicking and pushing arrow keys to see what the animals say.");
+			print ("Try clicking to see what the animals say.");
 			break;
 		case 1:
 			StartCoroutine (Pause ());

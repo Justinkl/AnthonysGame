@@ -12,7 +12,7 @@ public class TransitionCoroutine : MonoBehaviour {
 
 	private IEnumerator Countdown ()
 	{
-		yield return new WaitForSeconds (12);
+		yield return new WaitForSeconds (15);
 		SceneManager.LoadScene (1);
 	}
 

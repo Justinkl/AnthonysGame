@@ -8,5 +8,6 @@ public class Horse : animal {
 		print ("Naye");
 		Alive ();
 
+
 	}
 }

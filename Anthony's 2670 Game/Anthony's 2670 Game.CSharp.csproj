@@ -68,6 +68,8 @@
   <ItemGroup>
     <Compile Include="Assets\Delegate.cs" />
     <Compile Include="Assets\FirstWhileLoop.cs" />
+    <Compile Include="Assets\ForeachLoopOne.cs" />
+    <Compile Include="Assets\ForeachLoopTwo.cs" />
     <Compile Include="Assets\ForloopOne.cs" />
     <Compile Include="Assets\ForloopTwo.cs" />
     <Compile Include="Assets\Horse.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\WelcomeSwitchStatement.cs" />
     <Compile Include="Assets\Zebra.cs" />
     <Compile Include="Assets\animal.cs" />
+    <Compile Include="Assets\clicksound.cs" />
     <Compile Include="Assets\monkey.cs" />
     <Compile Include="Assets\recievedelegates.cs" />
   </ItemGroup>

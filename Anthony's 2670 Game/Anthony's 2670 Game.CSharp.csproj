@@ -73,6 +73,7 @@
     <Compile Include="Assets\Horse.cs" />
     <Compile Include="Assets\InstructionSwitch.cs" />
     <Compile Include="Assets\Isomething.cs" />
+    <Compile Include="Assets\ListOne.cs" />
     <Compile Include="Assets\SecondWhileLoop.cs" />
     <Compile Include="Assets\StaticFunction.cs" />
     <Compile Include="Assets\TransitionCoroutine.cs" />

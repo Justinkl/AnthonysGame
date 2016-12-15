@@ -3,8 +3,12 @@ using System.Collections;
 
 public class StaticFunction : MonoBehaviour {
 
+    //public static int anything = 100; this is a static variable
+
+    //make this another loop
+
 	// Use this for initialization
-	void Start () {
+	public static void Start () {
 	
 	}
 	

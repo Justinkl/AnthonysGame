@@ -12,6 +12,8 @@ public class Delegate : MonoBehaviour {
 
 	public static Action<string> ZooKeeperRun;
 
+    public static Action<GameObject> FillHorse;
+    public static Action<GameObject> RemovalOfNonHorseAnimalsFromThisZoo;
 	// Use this for initialization
 	void Start () {
         if (ZooKeeper != null)
